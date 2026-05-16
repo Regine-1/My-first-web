@@ -199,7 +199,7 @@ footer {
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
-        gap: 155px
+        gap: 15px
     }
     .nav-links{
         gap: 15px;
