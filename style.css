@@ -196,3 +196,27 @@ footer {
     padding: 10px;
 
 }
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 155px
+    }
+    .nav-links{
+        gap: 15px;
+    }
+    .hero-image {
+        height: 70vh;
+    }
+    .hero-text h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+@media (max-width: 600px)  {
+    .project-grid,
+    .teams-grid {
+        grid-template-columns: 1fr;
+    }
+    
+}
+    
+}
